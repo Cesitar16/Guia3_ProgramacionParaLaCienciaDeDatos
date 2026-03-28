@@ -28,7 +28,7 @@ PESO_KG_MAX = 105
 HES_MIN = 3
 HES_MAX = 25
 
-def limpiar_datos(df: pd.DataFrame) -> pd.DataFrame:
+def limpiar_deportistas(df: pd.DataFrame) -> pd.DataFrame:
    df = df.copy()
 
    #normalizar nombres de columnas
